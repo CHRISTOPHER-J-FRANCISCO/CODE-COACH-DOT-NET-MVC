@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CODE-COACH-DOT-NET-MVC/1.0.0": {
+        "runtime": {
+          "CODE-COACH-DOT-NET-MVC.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CODE-COACH-DOT-NET-MVC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

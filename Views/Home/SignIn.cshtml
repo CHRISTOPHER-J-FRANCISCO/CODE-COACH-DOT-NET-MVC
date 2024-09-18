@@ -3,4 +3,14 @@
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Welcome,</p>
+<p>Welcome back! Please enter your username and password to sign in to your account. If you're new, 
+    click 'Sign Up Here' to create an account. </p>
+
+<form id="signInForm" asp-action="SignIn">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username"><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+    <input type="submit" value="Sign In">
+    <a class="nav-link text-dark" href="https://x.com">Sign Up Here</a>
+</form>

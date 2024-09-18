@@ -6,7 +6,10 @@
 <p>Welcome back! Please enter your username and password to sign in to your account. If you're new, 
     click 'Sign Up Here' to create an account. </p>
 
-<form id="signInForm" asp-action="SignIn">
+
+<script src="/js/signIn.js"></script> 
+
+<form id="signInForm" onsubmit="return validateForm(event)">
     <label for="username">Username:</label>
     <input type="text" id="username" name="username"><br><br>
     <label for="password">Password:</label>

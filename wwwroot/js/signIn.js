@@ -43,7 +43,7 @@ function validateUsername(username) {
 
 // Is alphanumeric
 function isAlphanumeric(str) {
-    return /^[a-zA-Z0-9]{8,32}$/.test(str);
+    return /^(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{8,32}$/.test(str);
 }
 
 // Is username registered in the database
